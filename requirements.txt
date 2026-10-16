@@ -1,5 +1,5 @@
---extra-index-url https://download.pytorch.org/whl/cpu
 streamlit
-torch==2.11.0+cu130
-torchvision==0.26.0+cu130
+torch==2.11.0+cpu
+torchvision==0.26.0+cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
 pillow==11.3.0
