@@ -49,7 +49,7 @@ class GoogleNetTransferModel(nn.Module):
         return self.backbone(x)
 
 FINAL_FC_LAYERS = [
-    FCLayerConfig(out_features=256, activation="relu", batch_norm=True),
-    FCLayerConfig(out_features=64, activation="relu", batch_norm=True),
-    FCLayerConfig(out_features=8, activation=None),
+    FCLayerConfig(out_features=64, activation='relu', batch_norm=True),
+    FCLayerConfig(out_features=32, activation='relu', batch_norm=True),
+    FCLayerConfig(out_features=8, activation=None)
 ]
