@@ -8,7 +8,7 @@ A deep learning demo that classifies skin lesion images as **benign** or **malig
 
 > **Disclaimer:** Research/educational project only, not for diagnosis. Consult a dermatologist for any skin concern. Uploaded images are processed in memory and not stored.
 
-##Table of Contents
+## Table of Contents
 1. [Model](#model)
 2. [Performance](#performance)
 3. [Limitations](#limitations)
